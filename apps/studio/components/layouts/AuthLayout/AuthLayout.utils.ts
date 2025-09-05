@@ -24,7 +24,15 @@ export const generateAuthMenu = (
   return [
     {
       title: 'Manage',
-      items: [{ name: 'Users', key: 'users', url: `/project/${ref}/auth/users`, items: [] }],
+      items: [
+        { name: 'Users', key: 'users', url: `/project/${ref}/auth/users`, items: [] },
+        {
+          name: 'OAuth Clients',
+          key: 'oauth-clients',
+          url: `/project/${ref}/auth/oauth-clients`,
+          items: [],
+        },
+      ],
     },
     {
       title: 'Configuration',
