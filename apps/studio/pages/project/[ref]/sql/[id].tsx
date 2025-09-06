@@ -1,7 +1,7 @@
 import { useRouter } from 'next/router'
 import { useEffect } from 'react'
 
-import { useParams } from 'common/hooks/useParams'
+import { useParams } from 'common/hooks'
 import { SQLEditor } from 'components/interfaces/SQLEditor/SQLEditor'
 import DefaultLayout from 'components/layouts/DefaultLayout'
 import { EditorBaseLayout } from 'components/layouts/editors/EditorBaseLayout'
